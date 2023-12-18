@@ -1,5 +1,6 @@
 # Requires:
 # pip install langchain docarray tiktoken
+# pip install pydantic==1.10.8
 
 from langchain.chat_models import ChatOpenAI
 from langchain.embeddings import OpenAIEmbeddings
