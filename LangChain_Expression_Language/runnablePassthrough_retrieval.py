@@ -24,4 +24,7 @@ retrieval_chain = (
     | StrOutputParser()
 )
 
-print(retrieval_chain.invoke("how long did Bruce work at SAP?"))
+#print(retrieval_chain.invoke("how long did Bruce work at SAP?"))
+#print(retrieval_chain.invoke("which company did Bruce work for?"))
+#print(retrieval_chain.invoke("who has worked for SAP for 12 years?"))
+print(retrieval_chain.invoke("Which year did Bruce start to work for SAP?"))
